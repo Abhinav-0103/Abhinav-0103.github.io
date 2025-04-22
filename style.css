@@ -375,6 +375,25 @@ footer {
     font-size: 0.9rem;
 }
 
+/* === Additional Utilities === */
+.highlight {
+    color: var(--primary);
+}
+
+.projects-section {
+    background-color: #f9fafc;
+}
+
+/* Allow for cleaner modular project additions */
+.project-card {
+    min-height: 100%;
+}
+
+/* Button spacing fix for forms */
+form .btn {
+    margin-top: 10px;
+}
+
 /* Animations */
 @keyframes fadeIn {
     from {
